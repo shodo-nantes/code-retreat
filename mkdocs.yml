@@ -1,0 +1,103 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+# Project information
+site_name: Shodo Code Retreat
+site_url: https://shodo-nantes.github.io/code-retreat/
+site_description: >
+  Ressources pour les "Code Retreat" de Shodo Nantes
+repo_url: https://github.com/shodo-nantes/code-retreat
+edit_uri: ""
+
+# Navigation
+nav:
+  - Événements:
+    - Tous les événements: index.md
+    - 2023:
+        - 2023-07-04: events/2023/07/04/index.md
+  - Ressources:
+      - Katas:
+          - katas/sailboat/index.md
+      - Contraintes:
+          - constraints/tdd/index.md
+          - constraints/pair-programming/index.md
+          - constraints/pair-programming/strong-style.md
+          - constraints/no-if/index.md
+          - constraints/no-primitives/index.md
+          - constraints/cross-arms/index.md
+# Theme options ef2929, d52929
+
+# Configuration
+theme:
+  name: material
+  custom_dir: theme
+  language: fr
+  logo: assets/images/icon-128x128.png
+  favicon: assets/images/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+  palette:
+    primary: black
+    accent: red
+
+# Extra
+extra_css:
+  - assets/css/extra.css
+
+extra:
+  reveal:
+    path: reveal.js/dist
+    transition: slide
+    theme:
+      name: white.css
+      path: theme
+    plugin:
+      path: reveal.js/plugin
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shodo-nantes
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Shodo_Nantes
+      name: Shodo_Nantes on Twitter
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/shodo-nantes/
+      name: Shodo Nantes on LinkedIn
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
