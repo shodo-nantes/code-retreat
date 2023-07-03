@@ -18,7 +18,7 @@
         <link rel="next" href="events/2023/07/04/">
       
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.17">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
     
     
       
@@ -70,6 +70,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#cest-quoi-une-code-retreat" class="md-skip">
+          Aller au contenu
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -298,9 +303,45 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Tous les événements
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="." class="md-nav__link md-nav__link--active">
         Tous les événements
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cest-quoi-une-code-retreat" class="md-nav__link">
+    C'est quoi une "Code retreat" ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-retreats" class="md-nav__link">
+    Code retreats
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -478,7 +519,35 @@
   
     <li class="md-nav__item">
       <a href="constraints/tdd/" class="md-nav__link">
-        TDD (Test Driven Development)
+        Test Driven Development (TDD)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="constraints/tdd/as-if-you-meant-it/" class="md-nav__link">
+        TDD As If You Meant It
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="constraints/tcr/" class="md-nav__link">
+        Test && Commit || Revert
       </a>
     </li>
   
@@ -505,8 +574,64 @@
   
   
     <li class="md-nav__item">
+      <a href="constraints/pair-programming/ping-pong/" class="md-nav__link">
+        Ping-Pong Pair-Programming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="constraints/pair-programming/silent/" class="md-nav__link">
+        Silent Pair-Programming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="constraints/pair-programming/strong-style/" class="md-nav__link">
         Strong Style Pair-Programming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="constraints/mob-programming/" class="md-nav__link">
+        Mob Programming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="constraints/refactoring/" class="md-nav__link">
+        Refactoring
       </a>
     </li>
   
@@ -547,8 +672,50 @@
   
   
     <li class="md-nav__item">
+      <a href="constraints/immutable-code/" class="md-nav__link">
+        Immutable Code
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="constraints/tell-dont-ask/" class="md-nav__link">
+        Tell, don't ask
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="constraints/cross-arms/" class="md-nav__link">
         Croiser les bras
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="constraints/code-swap/" class="md-nav__link">
+        Code Swap
       </a>
     </li>
   
@@ -586,6 +753,28 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cest-quoi-une-code-retreat" class="md-nav__link">
+    C'est quoi une "Code retreat" ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-retreats" class="md-nav__link">
+    Code retreats
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -603,6 +792,22 @@
 
 <p>Chez Shodo cela nous arrive de faire des "Code Retreat".
 Ce repository existe pour fournir un support des instructions d'une session.</p>
+<h2 id="cest-quoi-une-code-retreat">C'est quoi une "Code retreat" ?<a class="headerlink" href="#cest-quoi-une-code-retreat" title="Permanent link">&para;</a></h2>
+<p>Une "Code Retreat" est un format de journée permettant de se poser pour coder.
+L'objectif est d'apprendre les uns des autres sur un exercice de code (un Kata)</p>
+<ul>
+<li>🕓 Par itérations de 1h chacune<ul>
+<li>45 min de code</li>
+<li>10 mins de debrief</li>
+<li>5 mins de pause</li>
+</ul>
+</li>
+<li>❌ A la fin de chaque itération, on supprime le code</li>
+<li>👥 En binômes, différents à chaque itération</li>
+<li>📖 Un seul Kata de Code (l’exercice) qu'on refera à chaque itération</li>
+<li>🦾 Chaque itération proposera différentes contraintes, pour travailler différentes choses (chaque itération sera unique)</li>
+</ul>
+<h2 id="code-retreats">Code retreats<a class="headerlink" href="#code-retreats" title="Permanent link">&para;</a></h2>
 <ul>
 <li>2023-07-04 <a href="events/2023/07/04/">⛱️ Summer Shodo Code Retreat ⛩️</a></li>
 </ul>
@@ -674,10 +879,10 @@ Ce repository existe pour fournir un support des instructions d'une session.</p>
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections"], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections"], "search": "assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.b425cdc4.min.js"></script>
+      <script src="assets/javascripts/bundle.220ee61c.min.js"></script>
       
     
   </body>
