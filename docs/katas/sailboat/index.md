@@ -2,10 +2,12 @@
 
 > [Slides](slides.md)
 
+> Bootstrap : <br>
+> 🔗 https://github.com/swkBerlin/kata-bootstraps
+
 Vous êtes à la barre d'un petit voilier, qui cherche à atteindre une île. Votre bateau se déplace au tour par tour en fonction du vent, lequel change à chaque tour.
 
 L'objectif de ce kata est de développer une fonction permettant de calculer la position du bateau à chaque tour.
-
 
 ## Déplacement du bateau
 

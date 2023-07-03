@@ -18,11 +18,20 @@ nav:
           - katas/sailboat/index.md
       - Contraintes:
           - constraints/tdd/index.md
+          - constraints/tdd/as-if-you-meant-it.md
+          - constraints/tcr/index.md
           - constraints/pair-programming/index.md
+          - constraints/pair-programming/ping-pong.md
+          - constraints/pair-programming/silent.md
           - constraints/pair-programming/strong-style.md
+          - constraints/mob-programming/index.md
+          - constraints/refactoring/index.md
           - constraints/no-if/index.md
           - constraints/no-primitives/index.md
+          - constraints/immutable-code/index.md
+          - constraints/tell-dont-ask/index.md
           - constraints/cross-arms/index.md
+          - constraints/code-swap/index.md
 # Theme options ef2929, d52929
 
 # Configuration

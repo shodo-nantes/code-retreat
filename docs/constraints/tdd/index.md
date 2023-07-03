@@ -2,7 +2,7 @@
 tags:
  - constraint
 ---
-# TDD (Test Driven Development)
+# Test Driven Development (TDD)
 
 ## RED/GREEN/REFACTOR
 

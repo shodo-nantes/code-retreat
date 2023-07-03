@@ -1,0 +1,9 @@
+---
+tags:
+- constraint
+---
+# Silent Pair-Programming
+
+Il est interdit de parler, d'écrire ou de dessiner.
+
+Seul le code peut être utilisé pour communiquer, mais il est interdit d’utiliser les commentaires de code à cet effet.
