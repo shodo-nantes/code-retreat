@@ -8,6 +8,13 @@
 - [TDD]
 - [Pair-Programming]
 
+## Itération \#2
+
+> :warning:  On continue à travailler en TDD ET en Pair-Programming
+
+- [Pas de if]
+- [Pair-Programming Ping-Pong]
+
 [TDD]: /code-retreat/constraints/tdd/
 [Pas de if]: /code-retreat/constraints/no-if/
 [Code swap]: /code-retreat/constraints/code-swap/
