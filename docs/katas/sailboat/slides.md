@@ -3,7 +3,7 @@ template: reveal.html
 back-url: code-retreat/katas/sailboat/
 ---
 
-<!-- .slide: data-background-image="assets/images/katas/sailboat/sailboat-kata-overview.png" data-background-opacity="0.6"-->
+<!-- .slide: data-background-image="../../assets/images/katas/sailboat/sailboat-kata-overview.png" data-background-opacity="0.6"-->
 # Sailboat Kata
 
 Notes:
@@ -13,7 +13,7 @@ Notes:
 
 ---
 
-<!-- .slide: data-background-image="assets/images/katas/sailboat/sailboat-kata-overview.png" data-background-opacity="0.6"-->
+<!-- .slide: data-background-image="../../assets/images/katas/sailboat/sailboat-kata-overview.png" data-background-opacity="0.6"-->
 ## Déplacement du bateau
 
 --
@@ -24,23 +24,23 @@ On modélise la position du bateau comme une grille à deux dimensions, réputé
 
 Si le vent et le bateau sont alignés, alors le bateau avance de 4 cases
 
-![](assets/images/katas/sailboat/sailboat-kata-examples-déplacement-alignes.png)
+![](../../assets/images/katas/sailboat/sailboat-kata-examples-déplacement-alignes.png)
 
 --
 
 Si le vent et le bateau sont opposés, alors le bateau avance de 1 case
 
-![](assets/images/katas/sailboat/sailboat-kata-examples-déplacement-opposes.png)
+![](../../assets/images/katas/sailboat/sailboat-kata-examples-déplacement-opposes.png)
 
 --
 
 Si le vent et le bateau sont orthogonaux, alors le bateau avance de 2 cases, et se décale d'une case dans le sens du vent
 
-![](assets/images/katas/sailboat/sailboat-kata-examples-déplacement-orthogonaux.png)
+![](../../assets/images/katas/sailboat/sailboat-kata-examples-déplacement-orthogonaux.png)
 
 ---
 
-<!-- .slide: data-background-image="assets/images/katas/sailboat/sailboat-kata-overview.png" data-background-opacity="0.6"-->
+<!-- .slide: data-background-image="../../assets/images/katas/sailboat/sailboat-kata-overview.png" data-background-opacity="0.6"-->
 ## Navigation
 ### Orientation du bateau
 
@@ -53,34 +53,34 @@ Avant de se laisser pousser par le vent, le navigateur oriente le bateau dans le
 Le bateau peut tourner dans le sens horaire
 
 
-![](assets/images/katas/sailboat/sailboat-kata-examples-orientation-sens-anti-horaire.png)
+![](../../assets/images/katas/sailboat/sailboat-kata-examples-orientation-sens-anti-horaire.png)
 
 --
 
 Le bateau peut tourner dans le sens anti-horaire
 
 
-![](assets/images/katas/sailboat/sailboat-kata-examples-orientation-sens-horaire.png)
+![](../../assets/images/katas/sailboat/sailboat-kata-examples-orientation-sens-horaire.png)
 
 --
 
 Le bateau ne tourne que d'un seul quart de tour à la fois
 
-![](assets/images/katas/sailboat/sailboat-kata-examples-orientation-un-seul-quart.png)
+![](../../assets/images/katas/sailboat/sailboat-kata-examples-orientation-un-seul-quart.png)
 
 --
 
 Le bateau tourne dans la direction la plus avantageuse
 
-![](assets/images/katas/sailboat/sailboat-kata-examples-orientation-plus-avantageuse.png)
+![](../../assets/images/katas/sailboat/sailboat-kata-examples-orientation-plus-avantageuse.png)
 
 --
 
 Le bateau peut conserver sa direction 
 
-![](assets/images/katas/sailboat/sailboat-kata-examples-orientation-conservée.png)
+![](../../assets/images/katas/sailboat/sailboat-kata-examples-orientation-conservée.png)
 
 ---
 
-<!-- .slide: data-background-image="assets/images/katas/sailboat/sailboat-kata-overview.png" data-background-opacity="0.6"-->
+<!-- .slide: data-background-image="../../assets/images/katas/sailboat/sailboat-kata-overview.png" data-background-opacity="0.6"-->
 # C'est parti !
