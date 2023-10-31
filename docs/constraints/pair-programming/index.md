@@ -4,10 +4,13 @@ tags:
 ---
 # Pair-Programming
 
-Travailler à deux sur un même ordinateur nécessite de définir des rôles
+Le Mob-Programming est une approche collaborative de développement logiciel, 
+où un binôme travaille ensemble, en même temps sur le même ordinateur.
+Le binôme s'organise autour de deux rôles principaux :
 
-- Le Driver : la personne au clavier
-- Le Navigator : la personne qui n’est pas au clavier
+- **Le Driver** est en charge d'écrire le code, et, plus généralement, d'interagir avec l'ordinateur. 
+    Il est la personne qui prend les décisions et qui est responsable du produit final.
+- **Le Navigator** est la personne qui formalise les décisions de l'équipe pour les transmettre au Driver.
 
 > 💡Conseil
 > 

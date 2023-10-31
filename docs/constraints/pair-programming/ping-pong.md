@@ -4,6 +4,8 @@ tags:
 ---
 # Ping-Pong Pair-Programming
 
+> Contrainte spécifique au [Pair-Programming](index.md)
+
 Le binômage dit ping-pong permet de coupler la pratique du binômage avec le TDD.
 Dans ce cadre, les itérations ne sont plus rythmées par le temps, mais par le cycle du TDD.
 Les rôles alternent à chaque fois qu’on termine une phase rouge du cycle de TDD.

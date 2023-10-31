@@ -18,7 +18,3 @@ L'objectif est d'apprendre les uns des autres sur un exercice de code (un Kata)
 - 👥 En binômes, différents à chaque itération
 - 📖 Un seul Kata de Code (l’exercice) qu'on refera à chaque itération
 - 🦾 Chaque itération proposera différentes contraintes, pour travailler différentes choses (chaque itération sera unique)
-
-## Code retreats
-
-- 2023-07-04 [⛱️ Summer Shodo Code Retreat ⛩️](events/2023/07/04/index.md)

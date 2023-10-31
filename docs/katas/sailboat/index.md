@@ -1,4 +1,7 @@
-# Sailboat Kata
+---
+title: ⛵ Sailboat Kata
+---
+# ⛵ Sailboat Kata
 
 > [Slides](slides.md)
 

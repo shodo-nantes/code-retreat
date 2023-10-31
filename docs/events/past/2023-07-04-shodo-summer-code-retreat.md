@@ -1,9 +1,13 @@
-# ⛱️ Summer Shodo Code Retreat ⛩️
+---
+title: ⛱️ Shodo Summer 2023 ⛩️
+date: 2023-07-04
+---
+# ⛱️ Shodo Summer Code Retreat 2023 ⛩️
 
 > **🗓️ Quand ?** <br> Mardi 04 juillet 2023
 >
 > **📍Où ?** <br> A "L'Atelier" à la Cantine Numérique
-
+<!-- more -->
 ## Agenda
 
 | 🕓 9h-9h30   | Accueil & Petit déjeuner            |
@@ -39,7 +43,7 @@
 > :warning:  On continue à travailler en TDD ET en Pair-Programming
 
 - [Pas de if]<br>
-- [Pair-Programming Ping-Pong]<br>
+- [Ping-Pong Pair-Programming]<br>
 
 ### Itération \#3
 
@@ -53,7 +57,7 @@
 
 > :warning: On continue à travailler en TDD ET en Pair-Programming
 
-- [Pair-Programming Strong Style]
+- [Strong Style Pair-Programming]
 - [Immutable Code]
 
 ### Itération \#5
@@ -69,19 +73,4 @@
 
 - [Mob-Programming]
 
-
-[TDD]: /code-retreat/constraints/tdd/
-[Pas de if]: /code-retreat/constraints/no-if/
-[Code swap]: /code-retreat/constraints/code-swap/
-[Refactoring]: /code-retreat/constraints/refactoring/
-[Tell, don't ask]: /code-retreat/constraints/tell-dont-ask/
-[Immutable Code]: /code-retreat/constraints/immutable-code/
-[Test && Commit || Revert]: /code-retreat/constraints/tcr/
-[TDD As If You Meant It]: /code-retreat/constraints/tdd/as-if-you-meant-it/
-
-
-[Pair-Programming]: /code-retreat/constraints/pair-programming/
-[Pair-Programming Ping-Pong]: /code-retreat/constraints/pair-programming/ping-pong/
-[Pair-Programming Strong Style]: /code-retreat/constraints/pair-programming/strong-style/
-[Silent Pair-Programming]: /code-retreat/constraints/pair-programming/silent/
-[Mob-Programming]: /code-retreat/constraints/mob-programming/
+{% include-markdown "../../constraints/links.md" %}

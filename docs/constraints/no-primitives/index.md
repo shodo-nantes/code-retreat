@@ -5,7 +5,7 @@ tags:
 # Pas de primitive
 
 ## Niveau 1 🌶️
-️Toutes méthode (autres que les constructeurs) ne doit accepter que classes comme argument et pas de primitive. 
+️Toutes méthode (autres que les constructeurs) ne doit accepter que des classes comme argument et pas de primitive. 
 
 Les nombres, les chaînes de caractères, etc. ne sont pas autorisés, même en utilisant les "classes primitives" de Java (Integer, Boolean, String, etc.).
 

@@ -10,28 +10,35 @@ edit_uri: ""
 # Navigation
 nav:
   - Événements:
-    - Tous les événements: index.md
-    - 2023:
-        - 2023-07-04: events/2023/07/04/index.md
-  - Ressources:
-      - Katas:
-          - katas/sailboat/index.md
-      - Contraintes:
-          - constraints/tdd/index.md
-          - constraints/tdd/as-if-you-meant-it.md
-          - constraints/tcr/index.md
-          - constraints/pair-programming/index.md
-          - constraints/pair-programming/ping-pong.md
-          - constraints/pair-programming/silent.md
-          - constraints/pair-programming/strong-style.md
-          - constraints/mob-programming/index.md
-          - constraints/refactoring/index.md
-          - constraints/no-if/index.md
-          - constraints/no-primitives/index.md
-          - constraints/immutable-code/index.md
-          - constraints/tell-dont-ask/index.md
-          - constraints/cross-arms/index.md
-          - constraints/code-swap/index.md
+    - events/index.md
+  - Katas:
+      - katas/game-of-life/index.md
+      - katas/sailboat/index.md
+  - Contraintes:
+      - constraints/index.md
+      - Sur le code:
+        - constraints/tdd/index.md
+        - constraints/tdd/as-if-you-meant-it.md
+        - constraints/tdd/outside-in.md
+        - constraints/tcr/index.md
+        - constraints/refactoring/index.md
+        - constraints/no-if/index.md
+        - constraints/no-primitives/index.md
+        - constraints/immutable-code/index.md
+        - constraints/tell-dont-ask/index.md
+        - constraints/code-swap/index.md
+      - Sur les interactions sociales:
+        - constraints/regle-du-oui/index.md
+        - constraints/pair-programming/index.md
+        - constraints/pair-programming/ping-pong.md
+        - constraints/pair-programming/silent.md
+        - constraints/pair-programming/strong-style.md
+        - constraints/cross-arms/index.md
+        - constraints/mob-programming/index.md
+        - constraints/mob-programming/blind-navigator.md
+        - constraints/mob-programming/mute-mobbers.md
+        - constraints/many-more-much-smaller-steps/index.md
+
 # Theme options ef2929, d52929
 
 # Configuration
@@ -42,8 +49,13 @@ theme:
   logo: assets/images/icon-128x128.png
   favicon: assets/images/favicon.png
   features:
-    - navigation.tabs
+    - content.tabs.link
+    # - navigation.indexes
+    - navigation.instant
     - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
   palette:
     primary: black
     accent: red
@@ -106,7 +118,15 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+plugins:
+  - blog:
+      blog_dir: events
+      blog_toc: true
+      post_dir: "{blog}/past"
+  - include-markdown
