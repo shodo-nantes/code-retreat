@@ -11,28 +11,24 @@
       
       
       
-        <link rel="canonical" href="https://shodo-nantes.github.io/code-retreat/constraints/no-if/">
+        <link rel="canonical" href="https://shodo-nantes.github.io/code-retreat/katas/game-of-life/zombies/">
       
       
-        <link rel="prev" href="../refactoring/">
       
       
-        <link rel="next" href="../no-primitives/">
-      
-      
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.7">
     
     
       
-        <title>Pas de "if" - Shodo Code Retreat</title>
+        <title>🏁 Game Of Life - Shodo Code Retreat</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.4b4a2bd9.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4b4a2bd9.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.356b1318.min.css">
       
       
 
@@ -51,9 +47,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/css/extra.css">
+      <link rel="stylesheet" href="../../../assets/css/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -78,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pas-de-if" class="md-skip">
+        <a href="#game-of-life" class="md-skip">
           Aller au contenu
         </a>
       
@@ -92,9 +88,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href="../.." title="Shodo Code Retreat" class="md-header__button md-logo" aria-label="Shodo Code Retreat" data-md-component="logo">
+    <a href="../../.." title="Shodo Code Retreat" class="md-header__button md-logo" aria-label="Shodo Code Retreat" data-md-component="logo">
       
-  <img src="../../assets/images/icon-128x128.png" alt="logo">
+  <img src="../../../assets/images/icon-128x128.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -111,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Pas de "if"
+              🏁 Game Of Life
             
           </span>
         </div>
@@ -156,7 +152,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../.." class="md-tabs__link">
+        <a href="../../.." class="md-tabs__link">
           
   
   Événements
@@ -170,21 +166,17 @@
         
   
   
-    
-  
   
     
     
       
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../katas/game-of-life/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../" class="md-tabs__link">
           
   
   Ressources
@@ -220,9 +212,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Shodo Code Retreat" class="md-nav__button md-logo" aria-label="Shodo Code Retreat" data-md-component="logo">
+    <a href="../../.." title="Shodo Code Retreat" class="md-nav__button md-logo" aria-label="Shodo Code Retreat" data-md-component="logo">
       
-  <img src="../../assets/images/icon-128x128.png" alt="logo">
+  <img src="../../../assets/images/icon-128x128.png" alt="logo">
 
     </a>
     Shodo Code Retreat
@@ -287,7 +279,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -346,7 +338,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../events/2023/11/03/" class="md-nav__link">
+      <a href="../../../events/2023/11/03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -366,7 +358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../events/2023/07/04/" class="md-nav__link">
+      <a href="../../../events/2023/07/04/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -433,7 +425,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../events/2022/11/08/" class="md-nav__link">
+      <a href="../../../events/2022/11/08/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -466,8 +458,6 @@
       
   
   
-    
-  
   
     
     
@@ -477,12 +467,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -496,7 +486,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Ressources
@@ -548,7 +538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../katas/game-of-life/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -568,7 +558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../katas/sailboat/" class="md-nav__link">
+      <a href="../../sailboat/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -594,8 +584,6 @@
                 
   
   
-    
-  
   
     
     
@@ -605,12 +593,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
@@ -624,7 +612,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Contraintes
@@ -637,7 +625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tdd/" class="md-nav__link">
+      <a href="../../../constraints/tdd/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -657,7 +645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tdd/as-if-you-meant-it/" class="md-nav__link">
+      <a href="../../../constraints/tdd/as-if-you-meant-it/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -677,7 +665,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tcr/" class="md-nav__link">
+      <a href="../../../constraints/tcr/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -697,7 +685,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pair-programming/" class="md-nav__link">
+      <a href="../../../constraints/pair-programming/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -717,7 +705,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pair-programming/ping-pong/" class="md-nav__link">
+      <a href="../../../constraints/pair-programming/ping-pong/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -737,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pair-programming/silent/" class="md-nav__link">
+      <a href="../../../constraints/pair-programming/silent/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -757,7 +745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pair-programming/strong-style/" class="md-nav__link">
+      <a href="../../../constraints/pair-programming/strong-style/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -777,7 +765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mob-programming/" class="md-nav__link">
+      <a href="../../../constraints/mob-programming/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -797,7 +785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../refactoring/" class="md-nav__link">
+      <a href="../../../constraints/refactoring/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -815,18 +803,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../constraints/no-if/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -835,7 +814,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -847,7 +825,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../no-primitives/" class="md-nav__link">
+      <a href="../../../constraints/no-primitives/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -867,7 +845,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../immutable-code/" class="md-nav__link">
+      <a href="../../../constraints/immutable-code/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -887,7 +865,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tell-dont-ask/" class="md-nav__link">
+      <a href="../../../constraints/tell-dont-ask/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -907,7 +885,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cross-arms/" class="md-nav__link">
+      <a href="../../../constraints/cross-arms/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -927,7 +905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../code-swap/" class="md-nav__link">
+      <a href="../../../constraints/code-swap/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -989,10 +967,17 @@
                   
 
 
-<h1 id="pas-de-if">Pas de "if"<a class="headerlink" href="#pas-de-if" title="Permanent link">&para;</a></h1>
-<p>Il est interdit d'utiliser les instructions conditionnelles <code>if</code> / <code>switch</code> / <code>while</code>. Les boucles <code>for</code> sont autorisées.</p>
-<p>Faites preuve de créativité pour mettre en place des algorithmes de décision en utilisant d’autres mécanismes à votre disposition (ex: le polymorphisme, les structures de recherche (tableau, listes, dictionnaires, Map), la compréhension de liste, etc.).</p>
-<p>N'hésitez pas à faire appel au facilitateur pour avancer sur cette contrainte.</p>
+<h1 id="game-of-life">🏁 Game Of Life<a class="headerlink" href="#game-of-life" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><a href="../slides/">Slides</a></p>
+<p>Bootstrap : <br>
+🔗 <a href="https://github.com/swkBerlin/kata-bootstraps">https://github.com/swkBerlin/kata-bootstraps</a></p>
+</blockquote>
+<p><a href="https://www.coderetreat.org/facilitators/gameoflife/">https://www.coderetreat.org/facilitators/gameoflife/</a></p>
+<p><a href="https://fr.wikipedia.org/wiki/Jeu_de_la_vie">https://fr.wikipedia.org/wiki/Jeu_de_la_vie</a>
+<a href="https://conwaylife.com/book/">https://conwaylife.com/book/</a>
+<a href="https://codingdojo.org/kata/GameOfLife/">https://codingdojo.org/kata/GameOfLife/</a></p>
+<p><a href="https://github.com/marcoemrich/game-of-life-rules/blob/master/gol_rules.png">https://github.com/marcoemrich/game-of-life-rules/blob/master/gol_rules.png</a></p>
 
 
 
@@ -1064,10 +1049,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link", "navigation.tabs", "navigation.sections"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.tabs.link", "navigation.tabs", "navigation.sections"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
       
     
   </body>
