@@ -2,127 +2,162 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://shodo-nantes.github.io/code-retreat/constraints/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://shodo-nantes.github.io/code-retreat/constraints/links/</loc>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/code-swap/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/cross-arms/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/immutable-code/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://shodo-nantes.github.io/code-retreat/constraints/many-more-much-smaller-steps/</loc>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/mob-programming/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://shodo-nantes.github.io/code-retreat/constraints/mob-programming/blind-navigator/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://shodo-nantes.github.io/code-retreat/constraints/mob-programming/mute-mobbers/</loc>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/no-if/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/no-primitives/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/pair-programming/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/pair-programming/ping-pong/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/pair-programming/silent/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/pair-programming/strong-style/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/refactoring/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/tcr/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/tdd/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/tdd/as-if-you-meant-it/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://shodo-nantes.github.io/code-retreat/constraints/tdd/outside-in/</loc>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/constraints/tell-dont-ask/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/events/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://shodo-nantes.github.io/code-retreat/events/2022/11/08/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <loc>https://shodo-nantes.github.io/code-retreat/events/2022/11/08/global-day-2022/</loc>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://shodo-nantes.github.io/code-retreat/events/2023/07/04/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <loc>https://shodo-nantes.github.io/code-retreat/events/2023/07/04/shodo-summer-2023/</loc>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://shodo-nantes.github.io/code-retreat/events/2023/11/03/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <loc>https://shodo-nantes.github.io/code-retreat/events/2023/11/03/global-day-2023/</loc>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/katas/game-of-life/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/katas/game-of-life/slides/</loc>
-         <lastmod>2023-10-31</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://shodo-nantes.github.io/code-retreat/katas/game-of-life/zombies/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/katas/sailboat/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://shodo-nantes.github.io/code-retreat/katas/sailboat/slides/</loc>
-         <lastmod>2023-10-31</lastmod>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://shodo-nantes.github.io/code-retreat/events/archive/2023/</loc>
+         <lastmod>2023-11-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://shodo-nantes.github.io/code-retreat/events/archive/2022/</loc>
+         <lastmod>2023-11-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

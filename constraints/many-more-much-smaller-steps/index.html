@@ -11,13 +11,11 @@
       
       
       
-        <link rel="canonical" href="https://shodo-nantes.github.io/code-retreat/constraints/tcr/">
+        <link rel="canonical" href="https://shodo-nantes.github.io/code-retreat/constraints/many-more-much-smaller-steps/">
       
       
-        <link rel="prev" href="../tdd/outside-in/">
+        <link rel="prev" href="../mob-programming/mute-mobbers/">
       
-      
-        <link rel="next" href="../refactoring/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -25,7 +23,7 @@
     
     
       
-        <title>Test && Commit || Revert - Shodo Code Retreat</title>
+        <title>Many More Much Smaller Steps - Shodo Code Retreat</title>
       
     
     
@@ -78,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#test-commit-revert" class="md-skip">
+        <a href="#many-more-much-smaller-steps" class="md-skip">
           Aller au contenu
         </a>
       
@@ -113,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Test && Commit || Revert
+              Many More Much Smaller Steps
             
           </span>
         </div>
@@ -555,8 +553,6 @@
                 
   
   
-    
-  
   
     
     
@@ -566,12 +562,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
         
           
           <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
@@ -585,7 +581,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             Sur le code
@@ -656,18 +652,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../tcr/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -676,7 +663,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -834,6 +820,8 @@
                 
   
   
+    
+  
   
     
     
@@ -843,12 +831,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="">
@@ -862,7 +850,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             Sur les interactions sociales
@@ -1013,9 +1001,18 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../many-more-much-smaller-steps/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1024,6 +1021,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1077,17 +1075,17 @@
                   
 
 
-<h1 id="test-commit-revert">Test &amp;&amp; Commit || Revert<a class="headerlink" href="#test-commit-revert" title="Permanent link">&para;</a></h1>
+<h1 id="many-more-much-smaller-steps">Many More Much Smaller Steps<a class="headerlink" href="#many-more-much-smaller-steps" title="Permanent link">&para;</a></h1>
 <blockquote>
-<p>Outillage : <br>
-🔗 <a href="https://github.com/murex/TCR">https://github.com/murex/TCR</a> <br>
-🔗 <a href="https://github.com/murex/TCR/blob/main/examples">https://github.com/murex/TCR/blob/main/examples</a></p>
+<p>🔗 <a href="https://www.geepawhill.org/series/many-more-much-smaller-steps/">https://www.geepawhill.org/series/many-more-much-smaller-steps/</a></p>
 </blockquote>
-<p>À chaque fois que le code est modifié et sauvegardé, les tests sont lancés.</p>
-<ul>
-<li>Si tous les tests passent, le code est commité</li>
-<li>Si au moins un test échoue, le code de prod est revert</li>
-</ul>
+<p>Identifiez le prochain plus petit pas possible dans votre développement logiciel.
+Dès que vous avez réalisé ce petit pas, changez de Driver.</p>
+<blockquote>
+<p>L'idée de cette contrainte est d'instaurer un ryhme dans la réalisation des tâches, comme ce qui est fait
+pour le <a href="../pair-programming/ping-pong">Ping-Pong Pair-Programming</a></p>
+</blockquote>
+<p>Remarque : pour corser la difficulté, vous pouvez coupler cette contrainte avec la pratique <a href="../tcr">TCR</a></p>
 
 
 
