@@ -28,7 +28,7 @@ date: 2024-02-21
 
 ## Le Kata
 
-[Ugly Trivia Kata]
+[Ugly Trivia Kata](/code-retreat/katas/ugly-trivia/)
 
 ## Déroulé de la journéee :
 

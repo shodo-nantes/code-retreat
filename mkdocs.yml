@@ -14,6 +14,7 @@ nav:
   - Katas:
       - katas/game-of-life/index.md
       - katas/sailboat/index.md
+      - katas/ugly-trivia/index.md
   - Contraintes:
       - constraints/index.md
       - Sur le code:
@@ -27,6 +28,7 @@ nav:
         - constraints/immutable-code/index.md
         - constraints/tell-dont-ask/index.md
         - constraints/code-swap/index.md
+        - constraints/no-mouse/index.md
       - Sur les interactions sociales:
         - constraints/regle-du-oui/index.md
         - constraints/pair-programming/index.md
