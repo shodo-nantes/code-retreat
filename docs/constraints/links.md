@@ -21,3 +21,4 @@
 [Blind Navigator]: /code-retreat/constraints/mob-programming/blind-navigator
 [Mute Mobbers]: /code-retreat/constraints/mob-programming/mute-mobbers
 [Many More Much Smaller Steps]:  /code-retreat/constraints/many-more-much-smaller-steps
+[No Mouse]: /code-retreat/constraints/no-mouse
