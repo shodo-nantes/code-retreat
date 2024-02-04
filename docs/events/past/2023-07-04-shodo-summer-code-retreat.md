@@ -19,7 +19,7 @@ date: 2023-07-04
 | 🕓 13h-14h   | Itération \#3                       |
 | 🕓 14h-15h   | Itération \#4                       |
 | 🕓 15h-16h   | Itération \#5                       |
-| 🕓 15h-16h   | Itération \#6                       |
+| 🕓 16h-17h   | Itération \#6                       |
 | 🕓 17h-17h30 | Debrief et conclusion de la journée |
 
 ## Le Kata
