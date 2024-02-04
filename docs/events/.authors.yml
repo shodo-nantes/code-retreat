@@ -1,5 +1,13 @@
 authors:
   fhiegel:
-    name: Fabien Hiegel
+    name: Fabien HIEGEL
     description: Knowledge worker
-    avatar: /assets/fhiegel.jpeg
+    avatar: /assets/authors/fhiegel.jpeg
+  mbonnot:
+    name: Matthieu BONNOT
+    description: Knowledge worker
+    avatar: /assets/mbonnot.png
+  jchauvin:
+    name: Jérémy CHAUVIN
+    description: Knowledge worker
+    avatar: /assets/jchauvin.jpeg

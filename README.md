@@ -33,6 +33,9 @@ Installer MkDocs et les plugins nécessaires à la génération du site statique
 
 ```shell
 pip install mkdocs mkdocs-material
+
+# Liste des plugins à installer :
+pip install mkdocs-include-markdown-plugin
 ```
 
 Démarrer un serveur local pour générer et afficher le site en continu
