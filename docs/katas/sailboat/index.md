@@ -6,7 +6,7 @@ title: ⛵ Sailboat Kata
 > [Slides](slides.md)
 
 > Bootstrap : <br>
-> 🔗 https://github.com/swkBerlin/kata-bootstraps
+> 🔗 https://github.com/shodo-nantes/kata-starters
 
 Vous êtes à la barre d'un petit voilier, qui cherche à atteindre une île. Votre bateau se déplace au tour par tour en fonction du vent, lequel change à chaque tour.
 

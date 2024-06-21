@@ -1,10 +1,12 @@
+---
+title: 🏁 Game Of Life
+---
 # 🏁 Game Of Life
 
 > [Slides](slides.md)
 
 > Bootstrap : <br>
-> 🔗 https://github.com/swkBerlin/kata-bootstraps
-
+> 🔗 https://github.com/shodo-nantes/kata-starters
 
 Le Jeu de la Vie de Conway est un jeu de simulation de la vie dans lequel l'état d'une cellule à un instant 
 donné dépend de l'état de ses voisines à l'instant précédent.

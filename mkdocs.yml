@@ -15,6 +15,7 @@ nav:
       - katas/game-of-life/index.md
       - katas/sailboat/index.md
       - katas/ugly-trivia/index.md
+      - katas/mars-rover/index.md
   - Contraintes:
       - constraints/index.md
       - Sur le code:
