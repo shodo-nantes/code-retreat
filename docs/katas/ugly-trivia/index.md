@@ -3,7 +3,7 @@ title: 🧹 Ugly Trivia
 ---
 # 🧹 Ugly Trivia
 
-Une code base à re-travailler.
+Une code-base à re-travailler.
 
 ## Code source original  
 
