@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <base href="https://shodo-nantes.github.io/code-retreat/">
+  <link rel="canonical" href="https://shodo-nantes.github.io/code-retreat/">
+  <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+
+  <link rel="stylesheet" href="reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+  <link rel="stylesheet"
+        href="reveal.js/dist/theme/white.css"
+        id="theme">
+  <link rel="stylesheet" href="css/reveal-theme-additional.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+<body>
+
+<div class="reveal">
+    
+    <a      id="back-button"
+            href="../../../code-retreat/katas/mars-rover/"
+            title="Back button">
+        <span class="material-icons">chevron_left</span>
+    </a>
+    
+  <div class="slides">
+    <section data-markdown
+             data-separator="^\n---\n$"
+             data-separator-vertical="^\n--\n$"
+             data-separator-notes="^Notes?\W?:"
+            
+            
+            
+            
+            
+    >
+      <script type="text/template">
+        <!-- .slide: data-background-image="../../assets/images/katas/mars-rover/mars-rover-kata-overview.png" data-background-opacity="0.6"-->
+# 🛸 Mars Rover
+
+Notes:
+
+- Vous faites partie d'une équipe contrôlant des robots pour explorer Mars, au travers du vide intersidéral
+- L'objectif de ce kata est de développer une petite simulation modélisant un robot se déplaçant à la surface de mars.
+
+---
+
+<!-- .slide: data-background-image="../../assets/images/katas/mars-rover/mars-rover-kata-overview.png" data-background-opacity="0.6"-->
+## Déplacement du Rover
+
+--
+
+On modélise la surface de Mars comme une grille à deux dimensions.
+
+Le Rover reçoit des commandes qui lui permettent d'évoluer dans ce milieu
+
+--
+
+Le Rover peut avancer d'une case
+
+![](../../assets/images/katas/mars-rover/mars-rover-kata-examples-avancer.png)
+
+--
+
+Le Rover peut reculer d'une case
+
+![](../../assets/images/katas/mars-rover/mars-rover-kata-examples-reculer.png)
+
+--
+
+Le Rover peut tourner à droite (sens horaire)
+
+![](../../assets/images/katas/mars-rover/mars-rover-kata-examples-tourner-droite.png)
+
+--
+
+Le Rover peut tourner à gauche (sens anti-horaire)
+
+![](../../assets/images/katas/mars-rover/mars-rover-kata-examples-tourner-gauche.png)
+
+---
+
+<!-- .slide: data-background-image="../../assets/images/katas/mars-rover/mars-rover-kata-overview.png" data-background-opacity="0.6"-->
+# C'est parti !
+      </script>
+    </section>
+  </div>
+</div>
+
+<script src="reveal.js/dist/reveal.js"></script>
+<script src="reveal.js/plugin/markdown/markdown.js"></script>
+<script src="reveal.js/plugin/highlight/highlight.js"></script>
+<script src="reveal.js/plugin/zoom/zoom.js"></script>
+<script src="reveal.js/plugin/notes/notes.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    hash: true,
+
+    transition: 'slide', // default/cube/page/concave/zoom/linear/fade/none
+    // Learn about plugins: https://revealjs.com/plugins/
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+  });
+</script>
+
+</body>
+</html>
