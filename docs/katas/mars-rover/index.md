@@ -40,6 +40,15 @@ indiquent comment se déplacer. Les commandes possibles sont :
 
 Une fois que toutes les commandes de déplacement ont été exécutées, le Rover renvoie sa position et son orientation.
 
+Exemples :
+
+- Soit une grille 5x5 et un Rover déposé en (2,2) face au Nord
+  - Il reçoit les commandes "FFLF"
+  - Il répond "1:4:W" (exemple de format de sortie, cf. https://www.codurance.com/katas/mars-rover)
+- Soit une grille 5x5 et un Rover déposé en (2,2) face au Nord
+    - Il reçoit les commandes "LLLL"
+    - Il répond "2:2:N" (exemple de format de sortie)
+
 ### 🌕 Mars : Surface continue
 
 La surface de Mars est continue, cela signifie que lorsque le Rover atteint les bords de la surface représentant Mars,
@@ -49,6 +58,12 @@ il réapparaît de l'autre côté.
 
 Le Rover peut rencontrer des obstacles sur son chemin.
 Si le Rover tente d'avancer sur une case occupée par un obstacle, il ne bouge pas et une erreur est signalée.
+
+Exemples
+
+- Soit une grille 5x5, avec un caillou en (2,4) et un Rover déposé en (2,2) face au Nord
+    - Il reçoit les commandes "FFLF"
+    - Il répond "O:2:3:N" (exemple de format de sortie, cf. https://www.codurance.com/katas/mars-rover)
 
 ## 🔮 Visualiser l'exploration en temps réel du plateau martien
 
