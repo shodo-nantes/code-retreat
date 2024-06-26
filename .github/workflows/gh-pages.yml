@@ -1,24 +1,40 @@
-name: Build and Deploy
+name: 🔧  Build and Deploy on GitHub Pages 🚀
 
 on:
   push:
     branches:
       - main
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
-  build-and-deploy:
+  build:
+    name: 🔧 Build Documentation 📖
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v4
         with:
           submodules: recursive
       - name: Install and Build 🔧
-        run: | 
-          pip install mkdocs mkdocs-material mkdocs-include-markdown-plugin
+        run: |
+          pip install -r theme/requirements.txt 
           mkdocs build
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
-          branch: gh-pages
-          folder: site
+          path: site
+  deploy:
+    name: 🚀 Deploy Documentation 📖
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy 🚀
+        id: deployment
+        uses: actions/deploy-pages@v4
