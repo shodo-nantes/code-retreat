@@ -40,6 +40,15 @@ indiquent comment se déplacer. Les commandes possibles sont :
 
 Une fois que toutes les commandes de déplacement ont été exécutées, le Rover renvoie sa position et son orientation.
 
+Exemples :
+
+- Soit une grille 5x5 et un Rover déposé en (2,2) face au Nord
+    - Il reçoit les commandes "FFLF"
+    - Il répond "1:4:W" (exemple de format de sortie, cf. https://www.codurance.com/katas/mars-rover)
+- Soit une grille 5x5 et un Rover déposé en (2,2) face au Nord
+    - Il reçoit les commandes "LLLL"
+    - Il répond "2:2:N" (exemple de format de sortie)
+
 ### 🌕 Mars : Surface continue
 
 La surface de Mars est continue, cela signifie que lorsque le Rover atteint les bords de la surface représentant Mars,
@@ -49,6 +58,12 @@ il réapparaît de l'autre côté.
 
 Le Rover peut rencontrer des obstacles sur son chemin.
 Si le Rover tente d'avancer sur une case occupée par un obstacle, il ne bouge pas et une erreur est signalée.
+
+Exemples
+
+- Soit une grille 5x5, avec un caillou en (2,4) et un Rover déposé en (2,2) face au Nord
+    - Il reçoit les commandes "FFLF"
+    - Il répond "O:2:3:N" (exemple de format de sortie, cf. https://www.codurance.com/katas/mars-rover)
 
 ## 🔮 Visualiser l'exploration en temps réel du plateau martien
 
@@ -79,6 +94,7 @@ ou encore (cf. https://codingdojo.org/kata/mars-rover/)
 ```
 
 ou encore
+
 ```
 🟫🟫🪨🟫🟫
 🟫🟫🟫🟫🟫
@@ -87,7 +103,7 @@ ou encore
 ⬆️🟫🟫🟫🟫
 ```
 
-## Variantes
+## 🔀 Variantes
 
 Pour aller plus loin dans cet exercice, vous pouvez vous amuser avec les fonctionnalités suivantes
 
@@ -113,6 +129,31 @@ Exemple de carte en cours d'exploration
 🌫️🌫️🌫️🌫️🟩🌳🌫️🌫️🌫️🌫️🟩🌫️
 🌫️🌫️🌫️🌫️🌫️🌫️🌫️🌫️🌫️🌫️🌫️🌫️
 ```
+
+## ⛰️ Altitude
+
+Mars n'est pas un terrain plat et l'altitude de chaque position varie.
+Le Rover peut se mouvoir sur des pentes à forte inclinaison, mais il a tout de même ses limites :
+lorsque la pente entre deux case dépasse les 15%, le Rover est bloqué comme par un obstacle.
+
+## 🪫 Énergie
+
+Un Rover est doté de panneaux solaires et de batteries.
+Son niveau d'énergie décroît à chaque fois qu'il exécute une commande.
+Son niveau d'énergie croît quand il ne fait rien.
+
+Quand le Rover n'a plus d'énergie, il ne peut pas exécuter les commandes qu'il reçoit.
+
+## 🛞 Coordonnées polaires
+
+Mars n'est pas vraiment une grille rectangulaire.
+Les Rovers doivent être en mesure de cartographier Mars en utilisant un système de coordonnées polaire.
+
+## 🌍 Coordonnées géographiques
+
+Mars n'est pas vraiment une grille rectangulaire.
+Les Rovers doivent être en mesure de cartographier Mars en utilisant un système de coordonnées géographiques (latitude,
+longitude et altitude).
 
 ## 🔗 Ressources
 
