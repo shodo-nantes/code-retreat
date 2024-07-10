@@ -3,8 +3,8 @@ title: 🛸 Mars Rover
 ---
 # 🛸 Mars Rover
 
-> [Slides](slides.md)
-
+> [Slides](./slides.md){:target="_blank"}
+> 
 > Bootstrap : <br>
 > 🔗 https://github.com/shodo-nantes/kata-starters
 
@@ -24,7 +24,7 @@ succès de la mission. Ce programme devra permettre :
 - d'envoyer les instructions aux Rovers, leur permettant de se mouvoir à la surface de Mars
 - de visualiser leur position et leur orientation en temps réel, vous offrant une vue imprenable sur leur progression.
 
-=> L'objectif de ce kata est de développer une petite simulation modélisant un robot se déplaçant à la surface de mars.
+⇒ L'objectif de ce kata est de développer une petite simulation modélisant un robot se déplaçant à la surface de Mars.
 
 ## 🛰️ Maîtriser les mouvements d'un Rover
 
