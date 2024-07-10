@@ -1,5 +1,5 @@
 ---
-title: 🌍 Global Day 2022 ⛩️
+title: 🌍 Global Day Of Code Retreat 2022 ⛩️
 date: 2022-11-08
 ---
 # 🌍 Global Day Of Code Retreat 2022 ⛩️
@@ -23,7 +23,7 @@ date: 2022-11-08
 
 ## Le Kata
 
-[Game Of Life](/code-retreat/katas/game-of-life/)
+[🏁 Game Of Life]
 
 ## Déroulé de la journée : Itérations
 
@@ -67,4 +67,5 @@ date: 2022-11-08
 - [Mob-Programming]
 - [Objet Calisthenics]
 
-{% include-markdown "../../constraints/links.md" %}
+{% include-markdown "../../constraints/.links.md" %}
+{% include-markdown "../../katas/.links.md" %}

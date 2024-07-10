@@ -7,7 +7,7 @@ tags:
 
 # Pair-Programming
 
-Le Mob-Programming est une approche collaborative de développement logiciel,
+Le Pair-Programming est une approche collaborative de développement logiciel,
 où un binôme travaille ensemble, en même temps sur le même ordinateur.
 Le binôme s'organise autour de deux rôles principaux :
 
@@ -17,5 +17,7 @@ Le binôme s'organise autour de deux rôles principaux :
 
 > 💡Conseil
 >
-> Utiliser la technique du Ping-Pong sur le cycle du TDD, permet de combiner effacement les deux contraintes.
+> Utiliser la technique du [Ping-Pong] sur le cycle du [TDD], permet de combiner effacement les deux contraintes.
 > (Changer de personne au fur et à mesure du cycle RED/GREEN/REFACTOR)
+
+{% include-markdown "../.links.md" %}.

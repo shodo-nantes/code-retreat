@@ -35,4 +35,4 @@ chmod 755 ./tcrw
 ./tcrw
 ```
 
-{% include-markdown "../../constraints/links.md" %}
+{% include-markdown "../../constraints/.links.md" %}
