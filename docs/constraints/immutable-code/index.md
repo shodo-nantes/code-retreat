@@ -1,7 +1,10 @@
 ---
+title: 🪨 Immutable Code
 tags:
-- constraint
+  - constraint
+  - constraint/code
 ---
+
 # Immutable Code
 
 - Aucun objet ne peut être modifié après sa création.

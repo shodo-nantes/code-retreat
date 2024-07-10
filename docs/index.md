@@ -1,5 +1,5 @@
 ---
-title: Événements
+title: Code Retreat
 ---
 
 Chez Shodo cela nous arrive de faire des "Code Retreat".

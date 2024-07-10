@@ -51,7 +51,7 @@ date: 2022-11-08
 > :warning: On continue à travailler en TDD ET en Pair-Programming
 
 - [Refactoring]
-- [Pas de if]
+- [No if]
 
 ### Itération \#5 : 5. Communiquer par le code
 

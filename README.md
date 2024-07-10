@@ -28,7 +28,7 @@ git submodule update --init --recursive
 # git submodule add https://github.com/hakimel/reveal.js.git theme/reveal.js
 ```
 
-## Install MKDoc
+## Install MKDocs
 
 Installer MkDocs et les plugins nécessaires à la génération du site statique
 
@@ -36,7 +36,7 @@ Installer MkDocs et les plugins nécessaires à la génération du site statique
 
 ```shell
 # Le fichier requirements contient les modules python à ajouter à mkdocs
-pip pip install -r theme/requirements.txt 
+pip install -r theme/requirements.txt 
 ```
 
 Démarrer un serveur local pour générer et afficher le site en continu

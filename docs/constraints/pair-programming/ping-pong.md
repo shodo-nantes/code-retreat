@@ -1,7 +1,10 @@
 ---
+title: 🏓 Ping-Pong
 tags:
-- constraint
+  - constraint
+  - constraint/human
 ---
+
 # Ping-Pong Pair-Programming
 
 > Contrainte spécifique au [Pair-Programming](index.md)
@@ -16,13 +19,13 @@ Exemple : Alice et Bertrand binôment.
 
 1. Alice écrit un premier test en échec et **passe la main à Bertrand**.
 
-    ➡️ _Les rôles alternent : Alice devient copilote, Bertrand devient pilote_
+   ➡️ _Les rôles alternent : Alice devient copilote, Bertrand devient pilote_
 
 2. Bertrand corrige le test.
 3. Bertrand effectue les refactorings nécessaires.
 4. Bertrand écrit un nouveau test en échec et **passe la main à Alice**.
 
-    ➡️ _Les rôles alternent : Alice devient pilote, Bertrand devient copilote_
+   ➡️ _Les rôles alternent : Alice devient pilote, Bertrand devient copilote_
 
 6. Alice corrige le test.
 7. Alice effectue les refactorings nécessaires.

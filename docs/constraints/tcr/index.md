@@ -1,9 +1,11 @@
 ---
+title: 🚦 TCR
 tags:
-- constraint
+  - constraint
+  - constraint/code
 ---
 
-# Test && Commit || Revert
+# TCR : Test && Commit || Revert
 
 > Outillage : <br>
 > 🔗 https://github.com/murex/TCR <br>

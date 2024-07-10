@@ -1,3 +1,10 @@
+---
+title: 🙈 Blind Navigator
+tags:
+  - constraint
+  - constraint/human
+---
+
 # Blind Navigator
 
 > Contrainte spécifique au [Mob-Programming](index.md)

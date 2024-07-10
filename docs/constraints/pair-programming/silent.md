@@ -1,11 +1,15 @@
 ---
+title: 🔇 Silent Pair-Programming
 tags:
-- constraint
+  - constraint
+  - constraint/human
 ---
+
 # Silent Pair-Programming
 
 > Contrainte spécifique au [Pair-Programming](index.md).
-> Pour le [Mob-Programming](../mob-programming/index.md), aller plutôt voir le [Mute Mobbers](../mob-programming/mute-mobbers.md)
+> Pour le [Mob-Programming](../mob-programming/index.md), aller plutôt voir
+> le [Mute Mobbers](../mob-programming/mute-mobbers.md)
 
 Il est interdit de parler, d'écrire ou de dessiner.
 

@@ -9,6 +9,8 @@ edit_uri: ""
 
 # Navigation
 nav:
+  - Code Retreat:
+    - index.md
   - Événements:
     - events/index.md
   - Katas:
@@ -18,29 +20,36 @@ nav:
       - katas/mars-rover/index.md
   - Contraintes:
       - constraints/index.md
-      - Sur le code:
-        - constraints/tdd/index.md
-        - constraints/tdd/as-if-you-meant-it.md
-        - constraints/tdd/outside-in.md
-        - constraints/tcr/index.md
+      - 🖥️ Sur le code:
+        - 🚥 TDD:
+          - constraints/tdd/index.md
+          - constraints/tdd/as-if-you-meant-it.md
+          - constraints/tdd/outside-in.md
+          - constraints/tcr/index.md
         - constraints/refactoring/index.md
         - constraints/no-if/index.md
         - constraints/no-primitives/index.md
         - constraints/immutable-code/index.md
         - constraints/tell-dont-ask/index.md
+        - constraints/everything-is-a-function/index.md
         - constraints/code-swap/index.md
         - constraints/no-mouse/index.md
-      - Sur les interactions sociales:
+      - 🙋 Sur les interactions sociales:
         - constraints/regle-du-oui/index.md
-        - constraints/pair-programming/index.md
-        - constraints/pair-programming/ping-pong.md
-        - constraints/pair-programming/silent.md
-        - constraints/pair-programming/strong-style.md
+        - 2️⃣ A deux:
+          - constraints/pair-programming/index.md
+          - constraints/pair-programming/strong-style.md
+          - constraints/pair-programming/ping-pong.md
+          - constraints/pair-programming/silent.md
+        - ✳️ A plusieurs :
+          - constraints/mob-programming/index.md
+          - constraints/mob-programming/blind-navigator.md
+          - constraints/mob-programming/mute-mobbers.md
         - constraints/cross-arms/index.md
-        - constraints/mob-programming/index.md
-        - constraints/mob-programming/blind-navigator.md
-        - constraints/mob-programming/mute-mobbers.md
         - constraints/many-more-much-smaller-steps/index.md
+not_in_nav: |
+  tags.md
+  slides*
 
 # Theme options ef2929, d52929
 
@@ -55,7 +64,7 @@ theme:
     - content.tabs.link
     # - navigation.indexes
     - navigation.instant
-    - navigation.sections
+    # - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top

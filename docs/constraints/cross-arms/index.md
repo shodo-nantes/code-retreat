@@ -1,9 +1,11 @@
 ---
+title: Cross Arms
 tags:
-- constraint
+  - constraint
+  - constraint/human
 ---
 
-# Croiser les bras
+# Cross Arms / Croiser les bras
 
 - Les deux membres du binôme tapent en même temps sur le clavier.
 - Chaque personne n’a le droit d’utiliser qu’une seule main.

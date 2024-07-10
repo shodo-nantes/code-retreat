@@ -25,7 +25,7 @@ date: 2023-11-03
 
 [Game Of Life]
 
-## Déroulé de la journéee : Itérations
+## Déroulé de la journée : Itérations
 
 À chaque itération :
 
@@ -65,13 +65,13 @@ date: 2023-11-03
 === "Pair-Programming"
     > :warning: On continue à travailler en TDD ET en Pair-Programming
 
-    - [Pas de if]
+    - [No if]
     - Variation du kata [Game Of Life : Zombies]
 
 === "Mob-Programming"
     > :warning: On continue à travailler en TDD ET en Mob-Programming
 
-    - [Pas de if]
+    - [No if]
     - Variation du kata [Game Of Life : Zombies]
 
 ### Itération \#4

@@ -1,7 +1,6 @@
 ---
 title: 🛸 Mars Rover
 ---
-
 # 🛸 Mars Rover
 
 > [Slides](slides.md)
@@ -130,13 +129,13 @@ Exemple de carte en cours d'exploration
 🌫️🌫️🌫️🌫️🌫️🌫️🌫️🌫️🌫️🌫️🌫️🌫️
 ```
 
-## ⛰️ Altitude
+### ⛰️ Altitude
 
 Mars n'est pas un terrain plat et l'altitude de chaque position varie.
 Le Rover peut se mouvoir sur des pentes à forte inclinaison, mais il a tout de même ses limites :
 lorsque la pente entre deux case dépasse les 15%, le Rover est bloqué comme par un obstacle.
 
-## 🪫 Énergie
+### 🪫 Énergie
 
 Un Rover est doté de panneaux solaires et de batteries.
 Son niveau d'énergie décroît à chaque fois qu'il exécute une commande.
@@ -144,12 +143,12 @@ Son niveau d'énergie croît quand il ne fait rien.
 
 Quand le Rover n'a plus d'énergie, il ne peut pas exécuter les commandes qu'il reçoit.
 
-## 🛞 Coordonnées polaires
+### 🛞 Coordonnées polaires
 
 Mars n'est pas vraiment une grille rectangulaire.
 Les Rovers doivent être en mesure de cartographier Mars en utilisant un système de coordonnées polaire.
 
-## 🌍 Coordonnées géographiques
+### 🌍 Coordonnées géographiques
 
 Mars n'est pas vraiment une grille rectangulaire.
 Les Rovers doivent être en mesure de cartographier Mars en utilisant un système de coordonnées géographiques (latitude,

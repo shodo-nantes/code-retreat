@@ -26,9 +26,7 @@ date: 2023-07-04
 
 [Sailboat Kata](/code-retreat/katas/sailboat/)
 
-## Déroulé de la journée
-
-# Itérations
+## Déroulé de la journée : Itérations
 
 > [⛱️ Summer Shodo Code Retreat ⛩️](..)
 >
@@ -42,7 +40,7 @@ date: 2023-07-04
 
 > :warning:  On continue à travailler en TDD ET en Pair-Programming
 
-- [Pas de if]<br>
+- [No if]<br>
 - [Ping-Pong Pair-Programming]<br>
 
 ### Itération \#3

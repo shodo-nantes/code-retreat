@@ -54,7 +54,6 @@ date: 2024-02-21
 
 ### 🍕 Déjeuner 🍕
 
-
 ### Itération \#3
 
 - IA (c'est juste une occasion d'utiliser l'IA)
@@ -68,7 +67,7 @@ date: 2024-02-21
 ### Itération \#5
 
 - Appliquer la [Règle du "Oui"]
-- [Pas de if]
+- [No if]
 
 
 ### Itération \#6
