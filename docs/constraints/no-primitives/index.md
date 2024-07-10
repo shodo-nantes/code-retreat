@@ -7,13 +7,20 @@ tags:
 
 # No Primitives / Pas de primitive
 
-## Niveau 1 🌶️
+Il est interdit d'utiliser directement les types de base de votre langage, tels que les entiers, les flottants, 
+les booléens, les chaînes de caractères, etc. Vous ne pouvez pas non plus utiliser directement les tableaux, les listes,
+ou les dictionnaires.
 
-Toute méthode (autres que les constructeurs) ne doit accepter que des classes comme argument et pas de primitive.
+Pour manipuler ces types primitifs, vous devrez modéliser votre métier, créer vos propres types personnalisés, 
+et encapsuler les types primitifs dans vos types personnalisés.
 
-Les nombres, les chaînes de caractères, etc. ne sont pas autorisés, même en utilisant les "classes primitives" de Java (
-Integer, Boolean, String, etc.).
+Aucune fonction ne peut accepter de type primitive, à l'exception des constructeurs.
+Tous les arguments de vos fonctions sont nécessairement des types personnalisés.
 
-## Niveau 2 🌶️🌶️
+> 💡Conseil
+>
+> Ne lésinez pas sur les "Value Object" et les "First-Class Collection". 
 
-Aucune fonction ne doit renvoyer de valeur primitive, pas même les lambdas
+## Aller plus loin
+
+Aucune fonction ne doit renvoyer de type primitif, pas même les lambdas

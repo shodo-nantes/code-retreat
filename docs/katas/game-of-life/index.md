@@ -3,8 +3,6 @@ title: 🏁 Game Of Life
 ---
 # 🏁 Game Of Life
 
-> [Slides](slides.md)
-
 > Bootstrap : <br>
 > 🔗 https://github.com/shodo-nantes/kata-starters
 

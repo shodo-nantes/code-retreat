@@ -1,17 +1,19 @@
 ---
-#authors: 
-#    - fhiegel
-#    - jchauvin
-#    - mbonnot
 title: ❄️ Shodo Winter Code Retreat 2024 ⛩️
 date: 2024-02-21
+authors:
+  - fhiegel
+  - jchauvin
+  - mbonnot
 ---
+
 # ❄️ Shodo Winter Code Retreat 2024 ⛩️
 
 > **🗓️ Quand ?** <br> Mercredi 21 février 2024
 >
-<!-- > **📍Où ?** <br> A "L'Atelier" à la Cantine Numérique -->
+> **📍Où ?** <br> A "L'Atelier" à la Cantine Numérique
 <!-- more -->
+
 ## Agenda
 
 | 🕓 9h-9h30   | Accueil & Petit déjeuner            |
@@ -28,20 +30,20 @@ date: 2024-02-21
 
 ## Le Kata
 
-[Ugly Trivia Kata](/code-retreat/katas/ugly-trivia/)
+[🤮 Ugly Trivia Kata]
 
 ## Déroulé de la journéee :
 
 À chaque itération :
 
-- Vous devez changer de pair
+- Vous devez changer de binôme
 - Vous choisissez le langage que vous voulez utiliser
 - Vous appliquez la ou les contraintes de l'itération
 
 ### Itération \#1
 
 - Découverte du kata
-- Rétro-tester le code 
+- Rétro-tester le code
     - Golden Master
     - Bottom-up Testing
     - Tests de cactérisation
@@ -69,11 +71,10 @@ date: 2024-02-21
 - Appliquer la [Règle du "Oui"]
 - [No if]
 
-
 ### Itération \#6
 
 - [Immutable Code]
 - [Mob-Programming]
 
-
-{% include-markdown "../../constraints/links.md" %}
+{% include-markdown "../../constraints/.links.md" %}
+{% include-markdown "../../katas/.links.md" %}

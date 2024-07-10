@@ -2,12 +2,16 @@ authors:
   fhiegel:
     name: Fabien HIEGEL
     description: Knowledge worker
-    avatar: /assets/authors/fhiegel.jpeg
+    avatar: assets/authors/fhiegel.png
   mbonnot:
     name: Matthieu BONNOT
-    description: Knowledge worker
-    avatar: /assets/mbonnot.png
+    description: ""
+    avatar: assets/authors/undefined.png
   jchauvin:
     name: Jérémy CHAUVIN
-    description: Knowledge worker
-    avatar: /assets/jchauvin.jpeg
+    description: ""
+    avatar: assets/authors/undefined.png
+  jpiazzalungalerat:
+    name : Joël Piazzalunga-Lerat
+    description: ""
+    avatar: assets/authors/undefined.png
