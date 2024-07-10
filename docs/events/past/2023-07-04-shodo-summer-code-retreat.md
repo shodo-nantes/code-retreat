@@ -24,13 +24,9 @@ date: 2023-07-04
 
 ## Le Kata
 
-[Sailboat Kata](/code-retreat/katas/sailboat/)
+[⛵ Sailboat Kata]
 
 ## Déroulé de la journée : Itérations
-
-> [⛱️ Summer Shodo Code Retreat ⛩️](..)
->
-> [Slides](../itérations-slides)
 
 ### Itération \#1
 - [TDD]
@@ -71,4 +67,5 @@ date: 2023-07-04
 
 - [Mob-Programming]
 
-{% include-markdown "../../constraints/links.md" %}
+{% include-markdown "../../constraints/.links.md" %}
+{% include-markdown "../../katas/.links.md" %}

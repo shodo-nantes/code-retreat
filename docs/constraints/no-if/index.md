@@ -14,4 +14,4 @@ Faites preuve de créativité pour mettre en place des algorithmes de décision 
 disposition (ex: le polymorphisme, les structures de recherche (tableau, listes, dictionnaires, Map), la compréhension
 de liste, etc.).
 
-N'hésitez pas à faire appel au facilitateur pour avancer sur cette contrainte.
+N'hésitez pas à faire appel aux facilitateur·ices pour avancer sur cette contrainte.

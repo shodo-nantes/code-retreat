@@ -3,7 +3,7 @@ title: ⛵ Sailboat Kata
 ---
 # ⛵ Sailboat Kata
 
-> [Slides](slides.md)
+> [Slides](./slides.md){:target="_blank"}
 
 > Bootstrap : <br>
 > 🔗 https://github.com/shodo-nantes/kata-starters

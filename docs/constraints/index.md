@@ -14,4 +14,4 @@ Un exercice intéressant est de faire un kata avec une contrainte de chaque cat�
 
 > 🔗 https://www.coderetreat.org/facilitators/constraints/
 
-{% include-markdown "./links.md" %}
+{% include-markdown "./.links.md" %}
