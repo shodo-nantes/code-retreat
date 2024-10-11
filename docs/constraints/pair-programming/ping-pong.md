@@ -7,7 +7,7 @@ tags:
 
 # Ping-Pong Pair-Programming
 
-> Contrainte spécifique au [Pair-Programming](index.md)
+> Contrainte spécifique au [Pair-Programming]
 
 Le binômage dit ping-pong permet de coupler la pratique du binômage avec le TDD.
 Dans ce cadre, les itérations ne sont plus rythmées par le temps, mais par le cycle du TDD.
@@ -29,4 +29,6 @@ Exemple : Alice et Bertrand binôment.
 
 6. Alice corrige le test.
 7. Alice effectue les refactorings nécessaires.
-8. Le cycle recommence à partir du point 1.
+8. Le cycle recommence à partir du point 1
+ 
+{% include-markdown "../.links.md" %}.

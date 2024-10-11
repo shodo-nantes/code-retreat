@@ -23,7 +23,7 @@ date: 2023-11-03
 
 ## Le Kata
 
-[Game Of Life]
+[🏁 Game Of Life]
 
 ## Déroulé de la journée : Itérations
 
@@ -122,8 +122,5 @@ date: 2023-11-03
     - [TDD As If You Meant It]
     - Appliquer la [Règle du "Oui"]
 
-{% include-markdown "../../constraints/links.md" %}
-
-[Game Of Life]: ../../katas/game-of-life/index.md
-[Game Of Life : Zombies]: ../../katas/game-of-life/index.md#zombies
-[Game Of Life : 3D]: ../../katas/game-of-life/index.md#espace-a-trois-dimensions
+{% include-markdown "../../constraints/.links.md" %}
+{% include-markdown "../../katas/.links.md" %}
