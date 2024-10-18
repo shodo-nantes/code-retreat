@@ -1,5 +1,5 @@
 ---
-title: ⛱️ Shodo Summer 2024 ⛩️
+title: ⛱️ Shodo Summer Code Retreat 2024 ⛩️
 date: 2024-07-11
 ---
 
@@ -25,17 +25,15 @@ date: 2024-07-11
 
 ## Le Kata
 
-[🛸 Mars Rover](/code-retreat/katas/mars-rover/)
+[🛸 Mars Rover]
 
 ## Déroulé de la journée : Itérations
 
 À chaque itération :
 
-- Vous devez changer de pair
+- Vous devez changer de binôme
 - Vous choisissez le langage que vous voulez utiliser
 - Vous appliquez la ou les contraintes de l'itération
-
-# Itérations
 
 ### Itération \#1
 
@@ -84,4 +82,5 @@ date: 2024-07-11
 - [No if]
 - [No Mouse]
 
-{% include-markdown "../../constraints/links.md" %}
+{% include-markdown "../../constraints/.links.md" %}
+{% include-markdown "../../katas/.links.md" %}
