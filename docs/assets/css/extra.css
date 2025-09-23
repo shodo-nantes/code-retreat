@@ -2,3 +2,68 @@
     color: var(--md-accent-fg-color);
     opacity: 0.5;
 }
+
+/* Custom callouts */
+.md-typeset .admonition,
+.md-typeset details {
+    border-width: 0;
+    border-left-width: 4px;
+}
+
+:root {
+    --md-admonition-icon--workshop: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M495.9 166.6c3.2 8.7.5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4l-55.6 17.8c-8.8 2.8-18.6.3-24.5-6.8-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4c-1.1-8.4-1.7-16.9-1.7-25.5s.6-17.1 1.7-25.4l-43.3-39.4c-6.9-6.2-9.6-15.9-6.4-24.6 4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2 5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8 8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160"/></svg>');
+    --md-admonition-icon--workshop-color: rgb(198,131,70);  /* Copper */
+    --md-admonition-icon--workshop-color-background: rgba(198,131,70, 0.1);
+
+    --md-admonition-icon--idea: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M272 384c9.6-31.9 29.5-59.1 49.2-86.2 5.2-7.1 10.4-14.2 15.4-21.4 19.8-28.5 31.4-63 31.4-100.3C368 78.8 289.2 0 192 0S16 78.8 16 176c0 37.3 11.6 71.9 31.4 100.3 5 7.2 10.2 14.3 15.4 21.4 19.8 27.1 39.7 54.4 49.2 86.2h160zm-80 128c44.2 0 80-35.8 80-80v-16H112v16c0 44.2 35.8 80 80 80m-80-336c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-61.9 50.1-112 112-112 8.8 0 16 7.2 16 16s-7.2 16-16 16c-44.2 0-80 35.8-80 80"/></svg>');
+    --md-admonition-icon--idea-color: rgb(255,222,33);  /* Yellow */
+    --md-admonition-icon--idea-color-background: rgba(255,222,33, 0.1);
+
+    --md-admonition-icon--experiment: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 64 640 512"><path d="M176 112L176 261L176 112L176 261Q176 292 159 320L100 416L100 416L326 416L326 416Q326 416 326 416Q326 416 326 416Q313 424 307 439Q301 453 306 470Q312 489 322 507Q333 525 347 540Q359 553 375 554Q390 556 404 549L404 550L404 550Q404 560 408 569Q395 576 379 576L69 576L69 576Q40 575 20 556Q1 536 0 507Q0 487 10 470L119 294L119 294Q128 279 128 261L128 112L128 112L120 112L120 112Q98 110 96 88Q98 66 120 64L160 64L328 64Q350 66 352 88Q350 110 328 112L320 112L320 112L320 261L320 261Q320 279 330 294L336 305L336 305Q329 315 322 325Q315 339 309 353L289 320L289 320Q272 293 272 261L272 112L272 112L176 112L176 112M447 267Q437 271 436 282L436 300L436 300Q435 312 424 318Q413 325 402 319L389 311L389 311Q378 306 370 314Q359 326 350 341Q341 356 337 372Q334 383 344 389L358 397L358 397Q368 404 368 416Q368 428 358 434L344 443L344 443Q334 449 337 460Q342 476 350 491Q359 506 370 518Q379 526 389 520L402 513L402 513Q413 507 424 513Q435 520 436 532L436 549L436 549Q436 561 447 564Q463 568 480 568Q497 568 513 564Q523 561 524 549L524 532L524 532Q525 519 535 513Q546 507 557 512L571 520L571 520Q581 526 590 518Q601 506 610 491Q618 476 623 460Q626 449 616 443L602 434L602 434Q592 428 592 416Q592 404 602 397L616 389L616 389Q626 383 623 372Q618 356 610 341Q601 326 590 314Q581 306 571 311L557 319L557 319Q546 325 535 319Q525 312 524 300L524 282L524 282Q523 271 513 267Q497 264 480 264Q463 264 447 267L447 267M480 368Q507 369 522 392Q534 416 522 440Q507 463 480 464Q453 463 438 440Q426 416 438 392Q453 369 480 368L480 368Z" /></svg>');
+    --md-admonition-icon--experiment-color: rgb(0, 255, 205);  /* Yellow */
+    --md-admonition-icon--experiment-color-background: rgba(0, 255, 205, 0.1);
+}
+.md-typeset .admonition.workshop,
+.md-typeset details.workshop {
+    border-color: var(--md-admonition-icon--workshop-color); /* Copper */
+}
+.md-typeset .workshop > .admonition-title,
+.md-typeset .workshop > summary {
+    background-color:  var(--md-admonition-icon--workshop-color-background)
+}
+.md-typeset .workshop > .admonition-title::before,
+.md-typeset .workshop > summary::before {
+    background-color: var(--md-admonition-icon--workshop-color);
+    -webkit-mask-image: var(--md-admonition-icon--workshop);
+    mask-image: var(--md-admonition-icon--workshop);
+}
+
+.md-typeset .admonition.idea,
+.md-typeset details.idea {
+    border-color: var(--md-admonition-icon--idea-color);
+}
+.md-typeset .idea > .admonition-title,
+.md-typeset .idea > summary {
+    background-color:var(--md-admonition-icon--idea-color-background)
+}
+.md-typeset .idea > .admonition-title::before,
+.md-typeset .idea > summary::before {
+    background-color: var(--md-admonition-icon--idea-color);
+    -webkit-mask-image: var(--md-admonition-icon--idea);
+    mask-image: var(--md-admonition-icon--idea);
+}
+
+.md-typeset .admonition.experiment,
+.md-typeset details.experiment {
+    border-color: var(--md-admonition-icon--experiment-color);
+}
+.md-typeset .experiment > .admonition-title,
+.md-typeset .experiment > summary {
+    background-color:var(--md-admonition-icon--experiment-color-background)
+}
+.md-typeset .experiment > .admonition-title::before,
+.md-typeset .experiment > summary::before {
+    background-color: var(--md-admonition-icon--experiment-color);
+    -webkit-mask-image: var(--md-admonition-icon--experiment);
+    mask-image: var(--md-admonition-icon--experiment);
+}

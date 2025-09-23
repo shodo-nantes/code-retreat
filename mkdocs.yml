@@ -20,6 +20,7 @@ nav:
       - katas/ugly-trivia/index.md
       - katas/mars-rover/index.md
       - katas/pac-man/index.md
+      - katas/pokemon/index.md
   - Contraintes:
       - constraints/index.md
       - 🖥️ Sur le code:
