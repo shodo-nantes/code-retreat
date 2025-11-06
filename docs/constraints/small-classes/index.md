@@ -6,3 +6,7 @@ tags:
 ---
 
 # Small classes
+
+Voir aussi [Object Callisthenics]
+
+{% include-markdown "../../constraints/.links.md" %}
