@@ -29,6 +29,7 @@ nav:
           - constraints/tdd/as-if-you-meant-it.md
           - constraints/tdd/outside-in.md
           - constraints/tcr/index.md
+        - constraints/doc-as-test/index.md
         - constraints/baby-steps/index.md
         - constraints/many-more-much-smaller-steps/index.md
         - constraints/refactoring/index.md
@@ -37,6 +38,7 @@ nav:
         - constraints/no-primitives/index.md
         - constraints/immutable-code/index.md
         - constraints/tell-dont-ask/index.md
+        - constraints/verb-class-names/index.md
         - constraints/small-classes/index.md
         - constraints/everything-is-a-function/index.md
         - constraints/code-swap/index.md
@@ -52,6 +54,8 @@ nav:
           - constraints/mob-programming/blind-navigator.md
           - constraints/mob-programming/mute-mobbers.md
         - constraints/one-hand-each/index.md
+        - constraints/coder-prompter/index.md
+        - constraints/one-decision-at-a-time/index.md
 not_in_nav: |
   tags.md
   slides*
